@@ -4,6 +4,7 @@ import '../styles/App.css';
 // Components
 import MainHeader from './MainHeader'
 import Editor from './Editor';
+import MainFooter from './MainFooter';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <div className="container">
           <Editor />
         </div>
+        <MainFooter />
       </div>
     );
   }

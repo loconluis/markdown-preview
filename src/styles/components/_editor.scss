@@ -1,0 +1,19 @@
+.editor {
+  display: flex;
+  justify-content: center;
+}
+
+.textarea, .editor__preview {
+  width: 500px;
+  height: 550px;
+}
+
+.textarea {
+  margin-right: 15px;
+}
+.editor__preview {
+  background: white;
+  margin-left: 15px;
+  border: 1px solid blue;
+}
+
