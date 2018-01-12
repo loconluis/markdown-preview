@@ -27,7 +27,7 @@ export class Editor extends React.Component {
   render () {
     return (
       <div className="editor">
-        <div>
+        <div className="editor__input">
           <textarea
             className="textarea"
             placeholder="Write here..."

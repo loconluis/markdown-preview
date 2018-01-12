@@ -5,8 +5,9 @@ footer {
   bottom: 0px;
   width: 100vw;
   color: rgb(20, 20, 20);
-  p {
-    
+  @media (max-width: 45rem){
+    position: relative;
+    width: 100%;
   }
   a {
     text-decoration: none;

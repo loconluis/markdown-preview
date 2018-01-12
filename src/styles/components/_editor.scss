@@ -1,6 +1,9 @@
 .editor {
   display: flex;
   justify-content: center;
+  @media (max-width: 45rem){
+    flex-direction: column;
+  }
 }
 
 .textarea, .editor__preview {
@@ -9,16 +12,25 @@
   padding: 20px;
   overflow-y: auto;
   font-size: $font-size-large;
+  @media (max-width: 45rem){
+    width: 100%;
+  }
 }
 
 .textarea {
   margin-right: 15px;
   font-size: $font-size-large;
   border: $xxs-size solid rgb(63, 63, 63);
+  @media (max-width: 45rem){
+    margin-right: 0;
+  }
 }
 .editor__preview {
   background: white;
   margin-left: 15px;
   border: $xxs-size solid blue;
+  @media (max-width: 45rem){
+    margin-left: 0;
+  }
 }
 
