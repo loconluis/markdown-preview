@@ -3,7 +3,7 @@ import '../styles/App.css';
 
 // Components
 import MainHeader from './MainHeader'
-import Editor from './Editor';
+import { Editor }  from './Editor';
 import MainFooter from './MainFooter';
 
 class App extends Component {
